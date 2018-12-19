@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-19 04:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: registration_email/forms.py:67
+msgid "Remember me"
+msgstr "Continuar logado"
+
+#: registration_email/forms.py:73 registration_email/forms.py:95
+#: registration_email/templates/registration/login.html:17
+msgid "Email"
+msgstr "Email"
+
+#: registration_email/forms.py:99
+msgid "Password"
+msgstr "Senha"
+
+#: registration_email/forms.py:103
+msgid "Password (repeat)"
+msgstr "Repita a senha"
+
+#: registration_email/forms.py:118
+msgid "A user with that email already exists."
+msgstr "O email já está sendo usado por outro usuário."
+
+#: registration_email/forms.py:131
+msgid "Please enter a valid name."
+msgstr "Por favor, preencha com um nome valido."
+
+#: registration_email/forms.py:138
+msgid "The two password fields didn't match."
+msgstr "As duas senhas são diferentes."
+
+#: registration_email/templates/registration/activate.html:5
+#: registration_email/templates/registration/activate.html:8
+msgid "Activation failure"
+msgstr "Ativação falhou"
+
+#: registration_email/templates/registration/activate.html:12
+msgid "We are sorry but something went wrong!"
+msgstr "Pedimos deculpas, mas algo deu errado!"
+
+#: registration_email/templates/registration/activate.html:13
+msgid "The activation link you provided is broken or was already used."
+msgstr "O link de ativação enviado está quebrado ou já foi usado."
+
+#: registration_email/templates/registration/activation_complete.html:5
+#: registration_email/templates/registration/activation_complete.html:8
+msgid "Activation complete"
+msgstr "Ativação completa"
+
+#: registration_email/templates/registration/activation_complete.html:12
+msgid "You may now login with your username and password."
+msgstr "Você pode logar agora com seu usuário e senha."
+
+#: registration_email/templates/registration/activation_complete.html:14
+msgid "Login now"
+msgstr "Entrar agora"
+
+#: registration_email/templates/registration/activation_complete.html:16
+msgid "Home"
+msgstr "Início"
+
+#: registration_email/templates/registration/activation_email.txt:5
+#, python-format
+msgid ""
+"\n"
+"You have asked to register an account at %(site_name)s.\n"
+"If this wasn't you, please ignore this email.\n"
+"\n"
+"To activate this account, please click the following link within the next\n"
+"%(expiration_days)s days:\n"
+msgstr ""
+"\n"
+"Você realizou um cadastro em %(site_name)s.\n"
+"Se não foi você, por favor ignore o email.\n"
+"\n"
+"Para ativar esta conta, por favor click no link abaixo expiração em\n"
+"%(expiration_days)s days:\n"
+
+#: registration_email/templates/registration/activation_email.txt:15
+msgid "Atenciosamente,"
+msgstr "Sinceramente,"
+
+#: registration_email/templates/registration/activation_email_subject.txt:2
+msgid "Account Request"
+msgstr "Requisição de Conta"
+
+#: registration_email/templates/registration/login.html:5
+#: registration_email/templates/registration/login.html:8
+#: registration_email/templates/registration/login.html:35
+#: registration_email/templates/registration/password_reset_complete.html:13
+msgid "Login"
+msgstr "Entrar"
+
+#: registration_email/templates/registration/login.html:31
+msgid "Forgot your password?"
+msgstr "Perdeu sua senha?"
+
+#: registration_email/templates/registration/login.html:32
+msgid "Register a new account"
+msgstr "Registrar nova conta"
+
+#: registration_email/templates/registration/logout.html:5
+#: registration_email/templates/registration/logout.html:8
+msgid "Logout"
+msgstr "Sair"
+
+#: registration_email/templates/registration/logout.html:12
+msgid "You have been logged out."
+msgstr "Você saiu do sistema."
+
+#: registration_email/templates/registration/password_change_done.html:5
+#: registration_email/templates/registration/password_change_done.html:8
+msgid "Password change successful"
+msgstr "Senha atualizada com sucesso"
+
+#: registration_email/templates/registration/password_change_done.html:12
+msgid "Your password has been changed."
+msgstr "Sua senha foi alterada."
+
+#: registration_email/templates/registration/password_change_done.html:13
+msgid "Back to dashboard"
+msgstr "Voltar para a dashboard"
+
+#: registration_email/templates/registration/password_change_form.html:5
+#: registration_email/templates/registration/password_change_form.html:8
+msgid "Password change"
+msgstr "Alteração de senha"
+
+#: registration_email/templates/registration/password_change_form.html:12
+msgid "Please enter your old password, then enter your new password twice."
+msgstr "Por favor, entre com sua senha antiga, então entre com sua nova senha duas vezes."
+
+#: registration_email/templates/registration/password_change_form.html:23
+msgid "Save"
+msgstr "Salvar"
+
+#: registration_email/templates/registration/password_change_form.html:24
+#: registration_email/templates/registration/password_reset_form.html:22
+msgid "Reset password"
+msgstr "Resetar senha"
+
+#: registration_email/templates/registration/password_reset_complete.html:5
+#: registration_email/templates/registration/password_reset_complete.html:8
+msgid "Password reset complete"
+msgstr "Senha resetada"
+
+#: registration_email/templates/registration/password_reset_complete.html:12
+msgid "Please login with your new password."
+msgstr "Por favor, entre com sua nova senha."
+
+#: registration_email/templates/registration/password_reset_confirm.html:6
+#: registration_email/templates/registration/password_reset_confirm.html:11
+msgid "Enter new password"
+msgstr "Nova senha"
+
+#: registration_email/templates/registration/password_reset_confirm.html:6
+#: registration_email/templates/registration/password_reset_confirm.html:13
+msgid "Error resetting password"
+msgstr "Erro ao resetar senha"
+
+#: registration_email/templates/registration/password_reset_confirm.html:19
+msgid "Please enter your new password twice."
+msgstr "Por favor, entre com sua nova senha duas vezes."
+
+#: registration_email/templates/registration/password_reset_confirm.html:30
+msgid "Change my password"
+msgstr "Alterar minha senha"
+
+#: registration_email/templates/registration/password_reset_confirm.html:33
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"O link de recuperação de senha está invalido, possivelmente pois foi já foi usado."
+"Por favor, tente novamente a recuperação de senha."
+
+#: registration_email/templates/registration/password_reset_done.html:5
+#: registration_email/templates/registration/password_reset_done.html:8
+msgid "Password reset successful"
+msgstr "Senha resetada com sucesso"
+
+#: registration_email/templates/registration/password_reset_done.html:12
+msgid "We have sent you instructions for setting your password."
+msgstr "Nos enviamos para você instruções para resetar senha."
+
+#: registration_email/templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+"Você está recebendo este emaill pois foi solicita a recuperação de senha para o sua "
+"conta em  %(site_name)s."
+
+#: registration_email/templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Por favor, vá para a seguinte página e mude sua senha:"
+
+#: registration_email/templates/registration/password_reset_email.html:9
+msgid "Thanks for using our site!"
+msgstr "Obrigado por usar nosso site!"
+
+#: registration_email/templates/registration/password_reset_email.html:11
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "O %(site_name)s team"
+
+#: registration_email/templates/registration/password_reset_form.html:4
+#: registration_email/templates/registration/password_reset_form.html:7
+msgid "Password reset"
+msgstr "Resetar senha"
+
+#: registration_email/templates/registration/password_reset_form.html:11
+msgid ""
+"Enter your e-mail address below, and we will send instructions for setting a "
+"new one."
+msgstr "Digite um email abaixo, e iremos enviar para instruções para alteração da senha."
+
+#: registration_email/templates/registration/registration_closed.html:5
+#: registration_email/templates/registration/registration_closed.html:8
+msgid "Registration closed"
+msgstr "Cadastro desativado"
+
+#: registration_email/templates/registration/registration_closed.html:12
+msgid "We are sorry but registration is temporarily closed."
+msgstr "Nos pedimos desculpas, mas sua conta está temporariamente desativada."
+
+#: registration_email/templates/registration/registration_closed.html:13
+msgid ""
+"Please come back shortly and try again. We apologize for the inconvenience."
+msgstr "Por favor, volte em breve e tente novamente. Pedimos desculpas por inconvenientes."
+
+#: registration_email/templates/registration/registration_complete.html:5
+#: registration_email/templates/registration/registration_complete.html:8
+msgid "Registration complete"
+msgstr "Cadastro completo!"
+
+#: registration_email/templates/registration/registration_complete.html:12
+msgid "Thank you for your registration!"
+msgstr "Obrigado pelo seu cadastro!"
+
+#: registration_email/templates/registration/registration_complete.html:13
+msgid "You will receive an email with an activation link shortly."
+msgstr "Você recebá um email com um link de ativação em breve."
+
+#: registration_email/templates/registration/registration_form.html:5
+#: registration_email/templates/registration/registration_form.html:8
+msgid "Registration form"
+msgstr "Formulário de cadastro"
+
+#: registration_email/templates/registration/registration_form.html:22
+msgid "Register"
+msgstr "Cadastrar"
