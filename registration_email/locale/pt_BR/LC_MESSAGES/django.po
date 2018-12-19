@@ -154,12 +154,12 @@ msgstr "Salvar"
 #: registration_email/templates/registration/password_change_form.html:24
 #: registration_email/templates/registration/password_reset_form.html:22
 msgid "Reset password"
-msgstr "Resetar senha"
+msgstr "Recuperar senha"
 
 #: registration_email/templates/registration/password_reset_complete.html:5
 #: registration_email/templates/registration/password_reset_complete.html:8
 msgid "Password reset complete"
-msgstr "Senha resetada"
+msgstr "Recuperação de senha completa"
 
 #: registration_email/templates/registration/password_reset_complete.html:12
 msgid "Please login with your new password."
@@ -194,7 +194,7 @@ msgstr ""
 #: registration_email/templates/registration/password_reset_done.html:5
 #: registration_email/templates/registration/password_reset_done.html:8
 msgid "Password reset successful"
-msgstr "Senha resetada com sucesso"
+msgstr "Senha recuperada com sucesso"
 
 #: registration_email/templates/registration/password_reset_done.html:12
 msgid "We have sent you instructions for setting your password."
