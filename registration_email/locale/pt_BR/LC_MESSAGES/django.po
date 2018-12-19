@@ -32,7 +32,7 @@ msgstr "Senha"
 
 #: registration_email/forms.py:103
 msgid "Password (repeat)"
-msgstr "Repita a senha"
+msgstr "Senha (novamente)"
 
 #: registration_email/forms.py:118
 msgid "A user with that email already exists."
@@ -44,7 +44,7 @@ msgstr "Por favor, preencha com um nome valido."
 
 #: registration_email/forms.py:138
 msgid "The two password fields didn't match."
-msgstr "As duas senhas são diferentes."
+msgstr "Você deve escrever a mesma senha nos dois campos."
 
 #: registration_email/templates/registration/activate.html:5
 #: registration_email/templates/registration/activate.html:8
